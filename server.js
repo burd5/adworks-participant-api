@@ -6,7 +6,7 @@ const PORT = 8000
 app.use(cors())
 
 
-app.listen(process.env.port || PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
     console.log(`The server is now running on port ${PORT}`)
 })
 
