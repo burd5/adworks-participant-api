@@ -4,6 +4,7 @@ const cors = require('cors')
 const PORT = 8000
 
 app.use(cors())
+app.use(express.static(__dirname + '/public'));
 
 
 app.listen(process.env.PORT || PORT, () => {
@@ -30,8 +31,8 @@ const participants = {
         'age' : 20,
         'programs': 'Young Adult Out, Adult',
         'trainings': 'n/a',
-        'ged': 'self-study',
-        'supportiveServices': 'bus pass'
+        'ged': 'Self-Study',
+        'supportiveServices': 'Bus Pass'
     },
     'allan fuhlhage': {
         'name': 'Allan Fuhlhage',
@@ -39,14 +40,14 @@ const participants = {
         'programs': 'Young Adult Out, Adult',
         'trainings': 'n/a',
         'ged': 'Thrive Tutoring',
-        'supportiveServices': 'ged tests'
+        'supportiveServices': 'GED Tests'
     },
     'alexander hunter': {
         'name': 'Alexander Hunter',
         'age' : 24,
         'programs': 'Young Adult Out, Adult',
         'trainings': 'n/a',
-        'ged': 'self-study',
-        'supportiveServices': 'ged tests'
+        'ged': 'Self-study',
+        'supportiveServices': 'GED Tests'
     }
 }

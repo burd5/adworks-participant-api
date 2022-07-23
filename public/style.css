@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: rgb(153, 194, 195);
+    background-color: #fff;
 }
 
 input{
@@ -39,4 +39,10 @@ p{
 }
 #info{
     text-align: left;
+    margin: auto;
+}
+img{
+    width: 350px;
+    height: 300px;
+    margin-top: 40px;
 }
