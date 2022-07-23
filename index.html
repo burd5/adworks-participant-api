@@ -9,8 +9,9 @@
 </head>
 <body>
     <h1>Future U Caseload</h1>
-    <input type="text" id="name">
+    <input type="text" id="name" placeholder="Search by participant name">
     <select name="filter">
+        <option value="none">none</option>
         <option value="GED">GED</option>
         <option value="trainings">Trainings</option>
         <option value="we">Work Experience</option>
@@ -19,6 +20,7 @@
         <option value="program">Programs</option>
     </select>
     <button>Search</button>
+    <p id="info"></p>
     <script src="main.js"></script>
 </body>
 </html>
