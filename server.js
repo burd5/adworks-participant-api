@@ -31,7 +31,7 @@ const participants = {
         'programs': ['Young Adult Out', 'Adult'],
         'trainings': 'n/a',
         'ged': [true, 'self-study'],
-        'supportive services': ['bus pass']
+        'supportiveServices': ['bus pass']
     },
     'allan fuhlhage': {
         'name': 'Allan Fuhlhage',
@@ -39,7 +39,7 @@ const participants = {
         'programs': ['Young Adult Out', 'Adult'],
         'trainings': 'n/a',
         'ged': [true, 'Thrive Tutoring'],
-        'supportive services': ['ged tests']
+        'supportiveServices': ['ged tests']
     },
     'alexander hunter': {
         'name': 'Alexander Hunter',
@@ -47,6 +47,6 @@ const participants = {
         'programs': ['Young Adult Out', 'Adult'],
         'trainings': 'n/a',
         'ged': [true],
-        'supportive services': ['ged tests']
+        'supportiveServices': ['ged tests']
     }
 }
