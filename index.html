@@ -10,7 +10,7 @@
 <body>
     <h1>Future U Caseload</h1>
     <input type="text" id="name" placeholder="Search by participant name">
-    <select name="filter">
+    <select name="filter" id="filter">
         <option value="none">none</option>
         <option value="GED">GED</option>
         <option value="trainings">Trainings</option>
@@ -19,11 +19,13 @@
         <option value="busPass">Bus Pass</option>
         <option value="program">Programs</option>
     </select>
-    <button>Search</button>
-    <p id="age"></p><br>
-    <p id="name"></p><br>
-    <p id="programs"></p><br>
-    <p id="supportiveServices"></p><br>
+    <button>Search</button><br>
+    <section id="info">
+        <p id="parName">Name: </p><br>
+        <p id="age">Age: </p><br>
+        <p id="programs">Programs: </p><br>
+        <p id="supportiveServices">Supportive Services: </p><br>
+    </section>
     <script src="main.js"></script>
 </body>
 </html>

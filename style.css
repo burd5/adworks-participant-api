@@ -27,3 +27,16 @@ h1{
     font-weight: bold;
     margin-top: 40px;
 }
+
+p{
+    text-align: left;
+    margin-left: 50px;
+    background: white;
+    display: none;
+    width: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+#info{
+    text-align: left;
+}

@@ -28,25 +28,25 @@ const participants = {
     'bijou mbenga': {
         'name': 'Bijou Mbenga',
         'age' : 20,
-        'programs': ['Young Adult Out', 'Adult'],
+        'programs': 'Young Adult Out, Adult',
         'trainings': 'n/a',
-        'ged': [true, 'self-study'],
-        'supportiveServices': ['bus pass']
+        'ged': 'self-study',
+        'supportiveServices': 'bus pass'
     },
     'allan fuhlhage': {
         'name': 'Allan Fuhlhage',
         'age' : 19,
-        'programs': ['Young Adult Out', 'Adult'],
+        'programs': 'Young Adult Out, Adult',
         'trainings': 'n/a',
-        'ged': [true, 'Thrive Tutoring'],
-        'supportiveServices': ['ged tests']
+        'ged': 'Thrive Tutoring',
+        'supportiveServices': 'ged tests'
     },
     'alexander hunter': {
         'name': 'Alexander Hunter',
         'age' : 24,
-        'programs': ['Young Adult Out', 'Adult'],
+        'programs': 'Young Adult Out, Adult',
         'trainings': 'n/a',
-        'ged': [true],
-        'supportiveServices': ['ged tests']
+        'ged': 'self-study',
+        'supportiveServices': 'ged tests'
     }
 }
