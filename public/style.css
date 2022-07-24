@@ -58,7 +58,9 @@ p{
 }
 #info{
     text-align: left;
-    margin: auto;
+}
+#info #parName{
+    text-align: center;
 }
 img{
     width: 450px;
