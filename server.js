@@ -41,7 +41,7 @@ const caseload = {
         'age' : 19,
         'programs': 'Young Adult Out, Adult',
         'trainings': 'n/a',
-        'ged': `Thrive Tutoring[March: $2300', 'April: $1200']`,
+        'ged': `Thrive Tutoring [March: $2300, April: $1200]`,
         'supportiveServices': 'GED Tests'
     },
     'alexander hunter': {
