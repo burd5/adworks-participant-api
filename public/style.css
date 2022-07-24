@@ -2,7 +2,19 @@ body{
     text-align: center;
     background-color: #fff;
 }
-
+header{
+    display: flex;
+}
+li{
+    list-style: none;
+    display: inline;
+    margin-right: 25px;
+    font-size: 22px;
+}
+ul{
+    flex-basis: 40%;
+    align-self: center;
+}
 input{
     width: 200px;
     height: 20px;
@@ -13,7 +25,7 @@ button{
     width: 100px;
     font-size: 16px;
     color: white;
-    background-color: blue;
+    background-color: rgb(23, 143, 148);
     border-radius: 5px;
 }
 select{
@@ -26,6 +38,10 @@ h1{
     font-size: 48px;
     font-weight: bold;
     margin-top: 40px;
+    border: 2px solid rgb(23, 143, 148);
+    border-radius: 10px;
+    flex-basis: 50%;
+    margin-left: 30px;
 }
 
 p{

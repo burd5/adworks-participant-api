@@ -16,30 +16,32 @@ app.get('/', (req, res) => {
 })
 
 app.get('/api', (req, res) => {
-    res.json(participants);
+    res.json(caseload);
 })
 
 app.get('/api/:name', (req, res) => {
     let particName = req.params.name.toLowerCase()
-    res.json(participants[particName])
+    res.json(caseload[particName])
 })
 
 
-const participants = {
+const caseload = {
     'bijou mbenga': {
         'name': 'Bijou Mbenga',
         'age' : 20,
         'programs': 'Young Adult Out, Adult',
         'trainings': 'n/a',
         'ged': 'Self-Study',
-        'supportiveServices': 'Bus Pass'
+        'supportiveServices': 'Bus Pass',
+        'status': 'Active',
+        'Term Date': 54,
     },
     'allan fuhlhage': {
         'name': 'Allan Fuhlhage',
         'age' : 19,
         'programs': 'Young Adult Out, Adult',
         'trainings': 'n/a',
-        'ged': 'Thrive Tutoring',
+        'ged': 'Thrive Tutoring' ['March: $2300', 'April: $1200'],
         'supportiveServices': 'GED Tests'
     },
     'alexander hunter': {

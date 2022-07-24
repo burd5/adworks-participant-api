@@ -23,3 +23,22 @@ function provideInformation(){
                 paragraph.style.background = 'rgb(54, 109, 111)'
             }
 })};
+
+class Participants {
+    constructor(age,name,programs,GED,supportiveServices,trainings,expenses){
+        this.age = age,
+        this.name = name,
+        this.programs = programs,
+        this.GED = GED,
+        this.supportiveServices = supportiveServices,
+        this.trainings = trainings,
+        this.expenses = expenses,
+
+        function updateMoneySpent(cost){
+            this.expenses += cost;
+        },
+        function daysUntilTerm(lastServiceDate){
+            lastServiceDate += 90;
+        }
+    }
+}
