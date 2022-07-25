@@ -20,7 +20,7 @@ function provideInformation(){
                 paragraph.style.display = 'inline-block'
                 paragraph.style.fontSize = '20px'
                 paragraph.style.color = 'white'
-                paragraph.style.background = 'rgb(54, 109, 111)'
+                paragraph.style.background = 'rgb(23, 143, 148)'
             }
 })};
 

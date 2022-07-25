@@ -10,6 +10,7 @@ li{
     display: inline;
     margin-right: 25px;
     font-size: 22px;
+    color: rgb(23, 143, 148);
 }
 ul{
     flex-basis: 40%;
@@ -17,16 +18,17 @@ ul{
 }
 input{
     width: 300px;
-    height: 30px;
+    height: 26px;
     border: 1px solid black;
     border-radius: 5px;
+    font-size: 16px;
 }
 button{
     width: 100px;
     height: 30px;
     font-size: 16px;
-    color: white;
-    background-color: rgb(23, 143, 148);
+    color: rgb(23, 143, 148);
+    background-color: #fff;
     border-radius: 5px;
     border: 1px solid black;
 }
@@ -41,7 +43,7 @@ h1{
     font-size: 48px;
     font-weight: bold;
     margin-top: 40px;
-    border: 2px solid rgb(23, 143, 148);
+    border: 2px solid black;
     border-radius: 10px;
     flex-basis: 50%;
     margin-left: 30px;
@@ -49,8 +51,8 @@ h1{
 
 p{
     text-align: left;
-    margin-left: 50px;
     background: white;
+    margin-left: 80px;
     display: none;
     width: auto;
     padding: 10px;
@@ -58,9 +60,6 @@ p{
 }
 #info{
     text-align: left;
-}
-#info #parName{
-    text-align: center;
 }
 img{
     width: 450px;
